@@ -1,0 +1,44 @@
+# This file is maintained automatically by "terraform init".
+# Manual edits may be lost in future updates.
+
+provider "registry.terraform.io/hashicorp/aws" {
+  version     = "4.58.0"
+  constraints = "~> 4.16"
+  hashes = [
+    "h1:YpFo20dwE/8+d2fNHo2E80CL9pKBLxDCm7R0o2JI9qU=",
+    "zh:14b2b2dfbc7ee705c412d762b1485ee08958c816a64ac74f5769e946e4a1d265",
+    "zh:17a37e6825e2023b18987d31c0cbb9336654ea146b68e6c90710ea4636af71ae",
+    "zh:273127c69fb244577e5c136c46164d34f77b0c956c18d27f63d1072dd558f924",
+    "zh:4b2b6416d34fb3e1051c99d2a84045b136976140e34381d5fbf90e32db15272e",
+    "zh:7e6a8571ff15d51f892776265642ee01004b8553fd4f6f2014b6f3f2834670c7",
+    "zh:847c76ab2381b66666d0f79cf1ac697b5bfd0d9c3009fd11bc6ad6545d1eb427",
+    "zh:9a52cae08ba8d27d0639a8d2b8c61591027883058bf0cc5a639cffe1e299f019",
+    "zh:9b12af85486a96aedd8d7984b0ff811a4b42e3d88dad1a3fb4c0b580d04fa425",
+    "zh:9df647e8322d6f94f1843366ba39d21c4b36c8e7dcdc03711d52e27f73b0e974",
+    "zh:9e52037e68409802ff913b166c30e3f2035af03865cbef0c1b03762bce853941",
+    "zh:a30288e7c3c904d6998d1709835d7c5800a739f8608f0837f960286a2b8b6e59",
+    "zh:a7f24e3bda3be566468e4ad62cef1016f68c6f5a94d2e3e979485bc05626281b",
+    "zh:ba326ba80f5e39829b67a6d1ce54ba52b171e5e13a0a91ef5f9170a9b0cc9ce4",
+    "zh:c4e3fe9f2be6e244a3dfce599f4b0be9e8fffaece64cbc65f3195f825f65489b",
+    "zh:f20a251af37039bb2c7612dbd2c5df3a25886b4cc78f902385a2850ea6e30d08",
+  ]
+}
+
+provider "registry.terraform.io/hashicorp/kubernetes" {
+  version = "2.19.0"
+  hashes = [
+    "h1:IfeU0GcXjHvXXnmuO1tQAxNPJWXkcdVUwBHg9HhJquY=",
+    "zh:028d346460de2d1d19b4c863dfc36be51c7bcd97d372b54a3a946bcb19f3f613",
+    "zh:391d0b38c455437d0a2ab1beb6ce6e1230aa4160bbae11c58b2810b258b44280",
+    "zh:40ea742f91b67f66e71d7091cfd40cc604528c4947651924bd6d8bd8d9793708",
+    "zh:48a99d341c8ba3cadaafa7cb99c0f11999f5e23f5cfb0f8469b4e352d9116e74",
+    "zh:4a5ade940eff267cbf7dcd52c1a7ac3999e7cc24996a409bd8b37bdb48a97f02",
+    "zh:5063742016a8249a4be057b9cc0ef24a684ec76d0ae5463d4b07e9b2d21e047e",
+    "zh:5d36b3a5662f840a6788f5e2a19d02139e87318feb3c5d82c7d076be1366fec4",
+    "zh:75edd9960cb30e54ef7de1b7df2761a274f17d4d41f54e72f86b43f41af3eb6d",
+    "zh:b85cadef3e6f25f1a10a617472bf5e8449decd61626733a1bc723de5edc08f64",
+    "zh:dc565b17b4ea6dde6bd1b92bc37e5e850fcbf9400540eec00ad3d9552a76ac2e",
+    "zh:deb665cc2123f2701aa3d653987b2ca35fb035a08a76a2382efb215c209f19a5",
+    "zh:f569b65999264a9416862bca5cd2a6177d94ccb0424f3a4ef424428912b9cb3c",
+  ]
+}
